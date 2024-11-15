@@ -16,3 +16,13 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+import math
+print("what are your variables")
+question1 = "height = "
+question2 = "radius = "
+h = int(input(question1))
+r = int(input(question2))
+AA = r + math.sqrt(h**2+r**2)
+A = math.pi*r*AA
+print(f"your surface area is {A}")
